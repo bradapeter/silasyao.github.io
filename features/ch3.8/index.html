@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>促销 - YKD项目需求说明</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u4fc3\u9500";
+    var mkdocs_page_input_path = "features/ch3.8.md";
+    var mkdocs_page_url = "/features/ch3.8/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> YKD项目需求说明</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../ch1/">第1章 前言</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../ch2/">第2章 概述</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">第3章 功能需求及规划</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../ch3.1/">商品及服务说明</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.2/">购物车</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.3/">付款与结算</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.4/">订单管理</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.5/">种植服务管理</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.6/">配送管理</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.7/">退换货管理</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">促销</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#38">3.8 促销</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#_1">电商促销方法</a></li>
+        
+            <li><a class="toctree-l4" href="#_2">术语及概念</a></li>
+        
+            <li><a class="toctree-l4" href="#_3">促销规则</a></li>
+        
+            <li><a class="toctree-l4" href="#_4">功能规划</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.9/">菜金</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.1/">生产管理</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../ch3.1/">库存管理</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">第4章 外部接口需求</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">第5章 非功能需求</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">第6章 数据字典</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">第7章 业务规则与业务算法</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">附录</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../about/">政策及协议</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">YKD项目需求说明</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>第3章 功能需求及规划 &raquo;</li>
+        
+      
+    
+    <li>促销</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="38">3.8 促销</h2>
+<p>优惠促销是指让消费者或经销商可以用低于正常水平的价格获得某种特定的物品或利益的促销活动。
+优惠券由来已久，是一种有效的促销工具，它采用邮寄、随商品或广告赠送的方式，向潜在顾客发送小面额有价证券，持券人可凭券在购买某种商品时享受优惠。</p>
+<p>优惠券运用的方式很多，但大多是在某种产品或服务未能如期销售或获利时，为协助其达到预期的目标，所特别策划的促销活动。</p>
+<p>优惠是促销的一种手段 ，促销包含优惠。</p>
+<h3 id="_1">电商促销方法</h3>
+<p>根据促销对象的不同，网上促销策略可分为：消费者促销、中间商促销和零售商促销等。本文主要是针对消费者的网上促销策略。</p>
+<ul>
+<li>网上折价促销</li>
+</ul>
+<p>折价亦称打折、折扣，是目前网上最常用的一种促销方式。因为目前网民在网上购物的热情远低于商场超市等传统购物场所，因此网上商品的价格一般都要比传统方式销售时要低，以吸引人们购买。由于网上销售商品不能给人全面、直观的印象、也不可试用、触摸等原因，再加上配送成本和付款方式的复杂性，造成网上购物和订货的积极性下降。而幅度比较大的折扣可以促使消费者进行网上购物的尝试并做出购买决定。</p>
+<p>目前大部分网上销售商品都有不同程度的价格折扣，如：京东商城、当当书店等。</p>
+<p>折价券是直接价格打折的一种变化形式，有些商品因在网上直接销售有一定的困难性，便结合传统营销方式，可从网上下载、打印折价券或直接填写优惠表单，到指定地点购买商品时可享受一定优惠。</p>
+<ul>
+<li>网上变相折价促销</li>
+</ul>
+<p>变相折价促销是指在不提高或稍微增加价格的前提下，提高产品或服务的品质数量，较大幅度地增加产品或服务的附加值，让消费者感到物有所值。由于网上直接价格折扣容易造成降低了品质的怀疑，利用增加商品附加值的促销方法会更容易获得消费者的信任。</p>
+<ul>
+<li>网上赠品促销</li>
+</ul>
+<p>赠品促销目前在网上的应用不算太多，一般情况下，在新产品推出试用、产品更新、对抗竞争品牌、开辟新市场情况下利用赠品促销可以达到比较好的促销效果。</p>
+<p>赠品促销的优点：可以提升品牌和网站的知名度；鼓励人们经常访问网站以获得更多的优惠信息；能根据消费者索取增品的热情程度而总结分析营销效果和产品本身的反应情况等。</p>
+<p>赠品促销应注意赠品的选择：不要选择次品、劣质品作为增品，这样做只会起到知得其反的作用；明确促销目的，选择适当的能够吸引消费者的产品或服务；注意时间和时机，注意赠品的时间性，如冬季不能赠送只在夏季才能用的物品，另外在危急公关等情况下也可考虑不计成本的赠品活动以挽回公关危急。注意预算和市场需求，赠品要在能接受的预算内，不可过度赠送赠品而造成营销困境。</p>
+<ul>
+<li>网上抽奖促销</li>
+</ul>
+<p>抽奖促销是网上应用较广泛的促销形式之一，是大部分网站乐意采用的促销方式。抽奖促销是以一个人或数人获得超出参加活动成本的奖品为手段进行商品或服务的促销，网上抽奖活动主要附加于调查、产品销售、扩大用户群、庆典、推广某项活动等。消费者或访问者通过填写问卷、注册、购买产品或参加网上活动等方式获得抽奖机会。</p>
+<p>网上抽奖促销活动应注意的几点：奖品要有诱惑力，可考虑大额超值的产品吸引人们参加；活动参加方式要简单化，因为目前上网费偏高，网络速度不够快，以及浏览者兴趣不同等原因，网上抽奖活动要策划的有趣味性和容易参加。太过复杂和难度太大的活动较难吸引匆匆的访客；抽奖结果的公正公平性，由于网络的虚拟性和参加者的广泛地域性，对抽奖结果的真实性要有一定的保证，应该及时请公证人员进行全程公证，并及时能过email、公告等形式向参加者通告活动进度和结果。</p>
+<ul>
+<li>积分促销</li>
+</ul>
+<p>积分促销在网络上的应用比起传统营销方式要简单和易操作。网上积分活动很容易通过编程和数据库等来实现，并且结果可信度很高，操作起来相对较为简便。积分促销一般设置价值较高的奖品，消费者通过多次购买或多次参加某项活动来增加积分以获得奖品。</p>
+<p>积分促销可以增加上网者访问网站和参加某项活动的次数；可以增加上网者对网站的忠诚度；可以提商活动的知名度等。</p>
+<p>现在不少电子商务网站“发行”的“虚拟货币”应该是积分促销的另一种体现，如酷必得的“酷币”等。网站通过举办活动来使会员“挣钱”，同时可以用仅能在网站使用的“虚拟货币”来购买本站的商品，实际上是给会员购买者相应的优惠。</p>
+<ul>
+<li>网上联合促销</li>
+</ul>
+<p>由不同商家联合进行的促销活动称为联合促销，联合促销的产品或服务可以起到一定的优势互补、互相提升自身价值等效应。如果应用得当，联合促销可起到相当好的促俏效果，如网络公司可以和传统商家联合，以提供在网络上无法实现的服务；网上售汽车和润滑油公司联合等。</p>
+<p>先总结这么多，实际上现在常用的促销方式已经有15种了:
+    1. 打折 
+    2. 低价
+    3. 满减
+    4. 积分
+    5. 抽奖
+    6. 返券
+    7. 拼购
+    8. 团购
+    9. 秒杀
+    10. 捆绑
+    11. 买赠
+    12. 免邮
+    13. 搭售
+    14. 试用
+    15. 免单</p>
+<h3 id="_2">术语及概念</h3>
+<p>“优惠券”或者“促销活动”只是承载促销的外部表现形式，但是内在的促销规则通用。 
+* <strong>促销活动</strong>
+  促销活动可由平台发起或卖家发起，卖家发起则只针对该商家的商品。
+  区域：该区域的客户享受优惠。在购物车选择区域可以即时计算出优惠，在下订单时，根据收货地址进行判断。
+  日期范围：即活动的有效日期范围，表示开始日期到结束日期,如果不设置下面「时分范围」，则是全天活动。
+  时分范围：表示活动在每天什么时候（可以为空），比如从8点至10点。
+  活动类型：短期活动（三八节、双11）；长期活动（如用于会员级别默认享受的优惠）</p>
+<ul>
+<li><strong>优惠券</strong>
+  区域：业务意义与促销活动一样，需要在下订单后判断。
+  有效期：优惠券一般只设置日期范围，不高时分范围。
+  可用次数：1~N次，表示每个优惠券号码可以使用几次，设为0次，一般表示不限次数。每次使用都会记录其使用历史
+  生成优惠券号码：针对优惠券，可生成1~N个号码，考虑手机用户，可以同时生成二维码QRCode。
+  私有形式的， 可以是直接关联到会员账户形式的， 可以是直接关联到会员账户在结账时选择使用
+  公开形式的，在结账时手动，在录入优惠券码使用。  </li>
+</ul>
+<p>促销活动和优惠券形式不同，它不需要使用优惠券，也不需要输入优惠券码，只要规则符合就可以生效，适用于如免费领取赠品，买A送B，全站买100送10的促销之类。
+<strong> 促销活动或优惠券可以关联若干个『促销规则』，可以避免设置过于复杂的规则。</strong></p>
+<h3 id="_3">促销规则</h3>
+<p>促销规则包含规则定义本身、顾客资格、对象范围和优惠券资源四个部分。</p>
+<p><strong>规则本身</strong></p>
+<p>除了名称、描述外，关键的字段数据是规则间关系和优先级，规则间关系包含排它、并存、择优匹配三大类。
+  - 排它是默认关系，最为简单，当生效后不再检查剩余的其它规则
+  - 并存是累积计算，需要注意的是下一规则是基于前面规则计算的结果进行计算的。比如满100减20，前面规则计算后是99，则不满足下一条规则的要求了。
+  - 择优匹配是遍历所有规则后，选择其中一条折扣额度最大的一条促销规则，但如果存在不同的优惠资源类型的几条规则，则按优先级、创建先后顺序选择第一条。</p>
+<p><strong> 顾客资格 </strong></p>
+<p>指定用户：一般用于临时优惠。
+指定用户组：注意用户组和会员级别（即顾客级别）是不同的，用户组是业务相关的分组，如游客、批发商、合作商。
+会员级别：一般是针对于会员积分，一般根据购物积分（累积）来进行升级。
+设置用户查询条件：根据自定义属性查询，比如性别，年龄。</p>
+<p><strong> 对象范围</strong></p>
+<p>即指哪些商品和服务参与促销。有两种范围类型，
+1）基于单品
+包括指定具体的产品、产品SKU（货品），产品目录和品牌等与产品关联方式。
+可考虑有订购量要求，上限和下限，最少买几件，最多买几件。</p>
+<p>2）基于整单
+下单时，针对整张订单的金额判断是否符合促销规则，金额可设置上限或下限。</p>
+<p><strong> 优惠资源 </strong></p>
+<p>金额
+  - 满X减Y元，单品和整单均支持
+  - 满X减Y%元，单品和整单均支持
+  - 特价，针对单品</p>
+<p>运费
+  - 满X减Y
+  - 减Y%，其中Y值范围1~100，整数，当为100表示运费全免。</p>
+<p>积分
+  - 增加固定值
+  - 乘与倍数</p>
+<p>赠品
+  - 指定产品，有单个方式和N选M个方式
+  - 服务，与上一条类似，服务也是产品（虚拟类型而已）
+  - 礼券
+  - 优惠券，设置赠送的优惠券，实际赠送时，是从该优惠券已生成的号码中选一个发给客户。如果已发完，则新增一批新号码。</p>
+<h3 id="_4">功能规划</h3>
+<h4 id="_5">卖家用例</h4>
+<ul>
+<li>新建优惠券，包含新建促销规则。新建促销规则应开发成独立的模块，然后通过页面包含、ajax等方式加入到优惠券新建页面中。方便新建促销活动。对优惠券可以创建多条促销规则。</li>
+<li>编辑优惠券</li>
+<li>查看优惠券</li>
+<li>删除优惠券，只有当优惠券为「未激活」状态时才可以删除，删除时将关联的促销规则删除或解除关联关系。</li>
+<li>查看优惠券列表</li>
+<li>生成优惠券号，只有当优惠券为「激活」状态时才可以生成优惠券号，根据优惠券的设置进行号码的生成。</li>
+<li>派发优惠券，人工派发可以选择站内（发给用户账号）、邮件、短信等方式外发。系统自动派发（通过促销规则赠送优惠券）</li>
+<li>新建促销活动，重用促销规则新建用例</li>
+<li>编辑促销活动</li>
+<li>查看促销活动</li>
+<li>删除促销活动，只有当促销活动为「未激活」状态时才可以删除，删除时将关联的促销规则删除或解除关联关系。</li>
+<li>查看促销活动列表</li>
+</ul>
+<h4 id="_6">顾客用例</h4>
+<ul>
+<li>在购物车里使用优惠券： 调用优惠券接口进行计算，如果优惠券没有产生效用，则提示顾客不能使用；如果可以用，则保存在购物车中，此进该优惠券并未真正使用，这样在结账时无需重复输入。</li>
+<li>结账时使用优惠券</li>
+<li>查看优惠券列表，指是查看关联到顾客账号的优惠券</li>
+<li>查看优惠券明细：将优惠券和关联的促销规则全部列出来</li>
+<li>关联优惠券号</li>
+</ul>
+<h4 id="_7">系统用例</h4>
+<ul>
+<li>下单后优惠券使用</li>
+<li>订单完成自动赠送优惠券</li>
+<li>促销活动计算： 针对单品（在产品详情页显示），针对整单（对于购物车）设计，供相关调用。</li>
+<li>优惠券计算接口：在购物车、结账哐下订单后调用，进行促销规则的计算。</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../ch3.9/" class="btn btn-neutral float-right" title="菜金">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../ch3.7/" class="btn btn-neutral" title="退换货管理"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../ch3.7/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../ch3.9/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../../js/theme.js"></script>
+
+</body>
+</html>
